@@ -14,6 +14,4 @@ FOUNDATION_EXPORT double SwiftyMapperVersionNumber;
 //! Project version string for SwiftyMapper.
 FOUNDATION_EXPORT const unsigned char SwiftyMapperVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <SwiftyMapper/PublicHeader.h>
-
 

@@ -12,7 +12,7 @@ import SwiftyJSON
 
 extension Mapper {
     
-    func map(swiftyJSON json: SwiftyJSON.JSON) -> N? {
+    public func map(swiftyJSON json: SwiftyJSON.JSON) -> N? {
         if let dict = json.dictionaryObject {
             return map(dict)
         }
